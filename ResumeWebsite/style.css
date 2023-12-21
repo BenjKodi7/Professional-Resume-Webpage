@@ -176,7 +176,7 @@ body {
 .container .right_side {
     position: relative;
     background: #fff;
-    padding: 40px;
+    padding: 30px;
 }
 
 .about.skills .box{
@@ -204,11 +204,11 @@ p {
     color: #333;
 }
 
-.about .box {
+/* .about .box {
     display: flex;
     flex-direction: column;
     margin: 20px 0;
-}
+} */
 
 .about .box .year_company {
     min-width: 150px;
@@ -219,6 +219,28 @@ p {
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
+
+}
+
+.about .box.certification {
+    margin: 20px 0;
+}
+
+.about .box.language{
+    margin: 20px 0;
+}
+
+.about .activities .box {
+    margin: 20px 0;
+}
+
+
+.about.skills .year_company {
+    padding-right: 20px;
+}
+
+.year_company.seo {
+    padding-right: 20px;
 
 }
 
@@ -235,6 +257,7 @@ p {
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
 .skills .box h4 {
@@ -281,6 +304,11 @@ p {
 
 .interest .box {
     display: f;
+}
+
+.about .box.language .text {
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1000px){
