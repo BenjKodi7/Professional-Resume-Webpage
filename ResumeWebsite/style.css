@@ -82,6 +82,18 @@ body {
     padding-top: 40px;
 }
 
+.contactInfo.language h4{
+    color: #fff;
+    font-weight: 300;
+}
+.contactInfo.language h4 span{
+    font-weight: 500;
+}
+
+.contactInfo .language- {
+    padding-bottom: 10px;
+}
+
 .title {
     color: #fff;
     text-transform: uppercase;
@@ -92,8 +104,7 @@ body {
 
 .contactInfo ul {
     position: relative;
-    /* padding: 10px; */
-
+    padding-bottom: 10px;
 }
 .contactInfo ul li {
     list-style: none;
@@ -244,10 +255,41 @@ p {
 
 }
 
+.about.project .box{
+    padding-bottom: 20px;
+}
+
+.about.project .box.end{
+    padding-bottom: 0;
+}
+
+.about.project .box .text .tech{
+    font-size: 14px;
+    padding: 5px 0 5px 0 ;
+}
+
 .about .box .text h4 {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
+}
+
+.about.project .box .text h4 span{
+    font-weight: 500;
+}
+
+.about.project .box .text h4 a:visited {
+    text-decoration: none;
+    color: #2a7da2;
+}
+
+.about.project .box .text h4 a:hover {
+    color:#848c90;
+    text-decoration: underline;
+}
+
+.about.project .box .text h4 a {
+    text-decoration: none;
 }
 
 .skills .box {
