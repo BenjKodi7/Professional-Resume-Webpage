@@ -119,6 +119,10 @@ body {
     text-decoration: none;
     color: #fff;
 }
+.contactInfo ul li a:link {
+    text-decoration: none;
+    color: #fff;
+}
 
 .contactInfo ul li a:hover {
     color:#848c90
@@ -278,6 +282,10 @@ p {
 }
 
 .about.project .box .text h4 a:visited {
+    text-decoration: none;
+    color: #2a7da2;
+}
+.about.project .box .text h4 a:link {
     text-decoration: none;
     color: #2a7da2;
 }
